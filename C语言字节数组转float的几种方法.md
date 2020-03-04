@@ -44,3 +44,11 @@ int main(int argc, char *argv[])
 }
 ```
 
+```shell
+liyongjun@Box:~/project/my/c/study$ ./字节数组转float.out 
+value = 12.339999
+value2 = 12.339999
+value3 = 12.339999
+value4 = 12.339999
+```
+
