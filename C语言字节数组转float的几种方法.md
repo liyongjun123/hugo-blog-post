@@ -6,7 +6,7 @@ categories: ["C"]
 tags: ["类型转换"]
 ---
 
-```
+```c
 #include <stdio.h>
 #include <string.h>
 
