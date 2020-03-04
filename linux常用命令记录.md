@@ -4,6 +4,7 @@ date: 2020-03-03T09:08:50+08:00
 draft: false
 categories: ["Linux"]
 tags: ["linux", "linux-cmd"]
+toc: true
 ---
 
 # alias
