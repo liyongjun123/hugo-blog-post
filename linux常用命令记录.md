@@ -7,11 +7,11 @@ tags: ["linux", "linux-cmd"]
 toc: true
 ---
 
-# alias
+## alias
 `alias ll='ls -l'` 给较长的指令 ls -l 取别名  
 `alias -p` 显示已经设置的命令的别名
 
-# apt-get
+## apt-get
 `apt-get install update` 侧重于更新，更新软件包列表  
 `apt-get install upgrade` 侧重于升级，升级已安装的软件
 
