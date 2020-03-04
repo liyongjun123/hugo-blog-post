@@ -52,3 +52,13 @@ value3 = 12.339999
 value4 = 12.339999
 ```
 
+```js
+func main() {
+	r := gin.Default()
+	r.GET("/hello", func(c *gin.Context) {
+		c.JSON(200, gin.H{"message": "hello world"})
+	})
+	r.Run(":8080")
+}
+```
+
