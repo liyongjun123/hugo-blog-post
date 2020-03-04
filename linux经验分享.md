@@ -4,6 +4,7 @@ date: 2020-03-03T09:11:35+08:00
 draft: false
 categories: ["Linux"]
 tags: ["linux"]
+url: "linux-experience-share.html"
 ---
 
 # UUID

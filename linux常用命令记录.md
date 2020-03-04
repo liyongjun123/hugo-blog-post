@@ -5,6 +5,7 @@ draft: false
 categories: ["Linux"]
 tags: ["linux", "linux-cmd"]
 toc: true
+url: "linux-cmd-record.html"
 ---
 
 ## alias
