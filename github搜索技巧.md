@@ -2,7 +2,7 @@
 title: "github搜索技巧"
 date: 2020-03-04T23:35:37+08:00
 draft: false
-categories: ["github"]
+categories: ["GitHub"]
 tags: ["技巧"]
 url: "github-search-skills.html"
 ---
