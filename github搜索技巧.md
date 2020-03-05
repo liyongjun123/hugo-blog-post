@@ -4,7 +4,7 @@ date: 2020-03-04T23:35:37+08:00
 draft: false
 categories: ["GitHub"]
 tags: ["技巧"]
-url: "github-search-skills.html"
+url: "/2020/03/04/github-search-skills.html"
 ---
 
 

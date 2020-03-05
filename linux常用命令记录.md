@@ -5,7 +5,7 @@ draft: false
 categories: ["Linux"]
 tags: ["linux", "linux-cmd"]
 toc: true
-url: "linux-cmd-record.html"
+url: "/2020/03/03/linux-cmd-record.html"
 ---
 
 ## alias
