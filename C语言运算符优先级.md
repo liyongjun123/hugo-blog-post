@@ -7,7 +7,7 @@ tags: ["优先级"]
 url: "/2020/03/05/clang-operator-priority.html"
 ---
 
-![C语言运算符优先级](./images/C语言运算符优先级.png)
+![C语言运算符优先级](/images/C语言运算符优先级.png)
 
 说明：
 
