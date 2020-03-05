@@ -1,3 +1,12 @@
+---
+title: "C语言运算符优先级"
+date: 2020-03-05T16:28:56+08:00
+draft: false
+categories: ["工具"]
+tags: ["优先级"]
+url: "/2020/03/05/clang-operator-priority.html"
+---
+
 ![C语言运算符优先级](./images/C语言运算符优先级.png)
 
 说明：
