@@ -39,13 +39,13 @@ IEEE 802.11ax 又称为高效率无线局域网(High Efficiency WLAN，缩写HEW
 
 **正交频分复用技术**(Orthogonal Frequency Division Multiplexing，OFDM)，在FDM的基础上，子信道划分成正交子信道，正交信号在接收端可以通过相关技术分开。这样，能够划分的子信道数就更多，相应的传输效率也更高。
 
-![](/images/wifi6_fdm_ofdm.png)
+![](/images/wifi6_fdm_ofdm_min.png)
 
 ### ## FDMA
 
 **频分多址**(frequency division multiple access，FDMA)，每个信道每一次只能分配给一个用户。
 
-![](/images/wifi6_fdm_fdma.png)
+![](/images/wifi6_fdm_fdma_min.png)
 
 ### ## OFDMA
 
