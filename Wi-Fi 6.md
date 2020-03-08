@@ -21,9 +21,9 @@ IEEE 802.11ax，Wi-Fi联盟基于该标准的行业认证标准称之为Wi-Fi 6�
 
 ### ## 何为 IEEE 802.11ax ?
 
-IEEE 802.11ax 又称为高效率无线局域网(High Efficiency WLAN，缩写HEW)，是无线局域网标准，由IEEE(Institute of Electrical and Electronics Engineers，电气和电子工程师协会)标准协会的IEEE 802.11工作组制定，正式标准预计将在2020年6月发布。从1997年，电气和电子工程师协会就开始发布一系列802.11标准，主要有802.11a/b/g/n 及 802.11ac、ad、ah。
+IEEE 802.11ax 又称为高效率无线局域网(High Efficiency WLAN，HEW)，是无线局域网标准，由电气和电子工程师协会(Institute of Electrical and Electronics Engineers，IEEE)的IEEE 802.11工作组制定，正式标准预计将在2020年6月发布。从1997年，电气和电子工程师协会就开始发布一系列802.11标准，主要有802.11a/b/g/n 及 802.11ac、ad、ah。
 
-由于802.11系列标准的叫法过于难记，Wi-Fi联盟为了简化名称，制定了新的命名标准，802.11ax的新名字是Wi-Fi 6。前几代现在被称为Wi-Fi 5(802.11ac)和Wi-Fi 4(802.11n)。
+由于802.11系列标准的名称过于反人类，Wi-Fi联盟为了简化名称，制定了新的命名标准，802.11ax的新名字是Wi-Fi 6。前几代现在被称为Wi-Fi 5(802.11ac)和Wi-Fi 4(802.11n)。
 
 ## # 特点
 
@@ -53,7 +53,7 @@ IEEE 802.11ax 又称为高效率无线局域网(High Efficiency WLAN，缩写HEW
 
 ### ## MU-MIMO
 
-多用户多入多出技术(Multi-User Multiple-Input Multiple-Output)，Wi-Fi 6允许在同一个通讯周期内最多与8台终端设备完成数据的上传和下载。
+多用户多入多出技术(Multi-User Multiple-Input Multiple-Output，MU-MIMO)，Wi-Fi 6允许在同一个通讯周期内最多与8台终端设备完成数据的上传和下载。
 
 二、终端更省电
 
