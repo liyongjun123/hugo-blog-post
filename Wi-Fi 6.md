@@ -19,7 +19,7 @@ url: "/2020/03/08/wifi6.html"
 
 IEEE 802.11ax，Wi-Fi联盟基于该标准的行业认证标准称之为Wi-Fi 6，在全球普及推广。
 
-### ## 何为 IEEE 802.11ax
+### ## 何为 IEEE 802.11ax ?
 
 IEEE 802.11ax 又称为高效率无线局域网(High Efficiency WLAN，缩写HEW)，是无线局域网标准，由IEEE(Institute of Electrical and Electronics Engineers，电气和电子工程师协会)标准协会的IEEE 802.11工作组制定，正式标准预计将在2020年6月发布。从1997年，电气和电子工程师协会就开始发布一系列802.11标准，主要有802.11a/b/g/n 及 802.11ac、ad、ah。
 
