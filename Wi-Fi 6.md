@@ -43,7 +43,7 @@ IEEE 802.11ax 又称为高效率无线局域网(High Efficiency WLAN，HEW)，�
 
 ### ## FDMA
 
-**频分多址**(frequency division multiple access，FDMA)，每个信道每一次只能分配给一个用户。
+**频分多址**(frequency division multiple access，FDMA)，为每个用户分配一个或多个子信道。
 
 ![](/images/wifi6_fdm_fdma_min.png)
 
