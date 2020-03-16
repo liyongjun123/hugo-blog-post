@@ -203,10 +203,8 @@ sysctl是一个允许您改变正在运行中的Linux系统的接口。它包含
 `:%s/from/to/g` 对所有行的内容进行替换  
 全部删除：按esc后，然后dG  
 
-
-~~# -h \--help man~~   
-~~时刻记得帮助文档~~ 
-
-~~# -h~~ 
-~~以可读格式显示~~ 
+## wget
+`wget -t 3 --timeout=5 "http://www.lyjiot.cn:8080/download/Tequ" -O /tmp/agv.bin` 下载文件  
+`-t` 重试次数，默认20次，0表示无限次重试  
+`--timeout=seconds` 每次连接超时时间，默认900s  
 
