@@ -15,6 +15,8 @@ url: "/2020/03/17/linux-cmd-abbreviation.html"
 | chmod  | **change** mode                           |                                       |
 | chown  | **change** owner                          |                                       |
 | chgrp  | **change** group                          |                                       |
+| chattr | **change** attribute                      | 改变文件扩展属性                      |
+| lsattr | list attribute                            | 显示文件扩展属性                      |
 |        |                                           |                                       |
 | dd     | disk dump，本应叫cc，名称被占用，被迫叫dd | 转换并复制一个文件                    |
 | df     | disk free                                 | 显示磁盘可用空间                      |
