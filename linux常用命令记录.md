@@ -3,7 +3,7 @@ title: "Linux常用命令记录"
 date: 2020-03-03T09:08:50+08:00
 draft: false
 categories: ["Linux"]
-tags: ["linux", "linux-cmd"]
+tags: ["命令"]
 toc: true
 url: "/2020/03/03/linux-cmd-record.html"
 ---

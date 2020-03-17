@@ -3,7 +3,7 @@ title: "Linux名词解释"
 date: 2020-03-03T09:10:29+08:00
 draft: false
 categories: ["Linux"]
-tags: ["linux"]
+tags: []
 url: "/2020/03/03/linux-term-explain.html"
 ---
 

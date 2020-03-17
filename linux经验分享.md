@@ -3,7 +3,7 @@ title: "Linux经验分享"
 date: 2020-03-03T09:11:35+08:00
 draft: false
 categories: ["Linux"]
-tags: ["linux"]
+tags: []
 url: "/2020/03/03/linux-experience-share.html"
 ---
 
