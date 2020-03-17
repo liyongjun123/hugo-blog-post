@@ -7,6 +7,3 @@ tags: ["cmd"]
 toc: true
 url: "/2020/03/17/linux-cmd-abbreviation.html"
 ---
-
-
-
