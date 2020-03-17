@@ -56,31 +56,5 @@ url: "/2020/03/17/linux-cmd-abbreviation.html"
 | cal    | calendar                                  | 显示日历                              |
 |        |                                           |                                       |
 |        |                                           |                                       |
-| ps     | process status                            | 进程状态                              |
-| su     | switch user                               | 切换用户                              |
-| uname  | Unix name                                 | 显示系统信息                          |
-|        |                                           |                                       |
-|        |                                           |                                       |
-| insmod | install module                            | 载入模块                              |
-| lsmod  | list modules                              |                                       |
-| rmmod  | remove module                             |                                       |
-|        |                                           |                                       |
-|        |                                           |                                       |
-| tar    | tape archive                              | 归档                                  |
-|        |                                           |                                       |
-|        |                                           |                                       |
-| .a     | archive，static library                   | 扩展名 a，静态库                      |
-| .so    | shared object，dynamically linked librery | 扩展名so，共享库，动态库              |
-| .o     | object file                               |                                       |
-| /bin   | binary                                    |                                       |
-| /dev   | device                                    |                                       |
-| /etc   | etcetera                                  |                                       |
-| /lib   | library                                   |                                       |
-| /proc  | process                                   |                                       |
-| /sbin  | superuser binary                          |                                       |
-| /tmp   | temporary                                 |                                       |
-| /usr   | Unix Shared Resources                     |                                       |
-| /var   |                                           |                                       |
-|        |                                           |                                       |
-|        |                                           |                                       |
+
 
