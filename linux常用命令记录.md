@@ -28,12 +28,9 @@ url: "/2020/03/03/linux-cmd-record.html"
 
 
 ## chattr
-
-修改文件的扩展属性
-
-`chattr +i a.txt` 使a.txt不可更改或删除，即使使超级用户
-
-`chattr -i a.txt` 使a.txt可变
+修改文件的扩展属性  
+`chattr +i a.txt` 使a.txt不可更改或删除，即使使超级用户  
+`chattr -i a.txt` 使a.txt可变  
 
 
 
@@ -102,7 +99,6 @@ ln [参数][源文件或目录][目标文件或目录]
 `ln -s test.txt test` 创建软链接文件test
 
 ## lsattr
-
 显示文件的扩展属性
 
 ## ipcs
