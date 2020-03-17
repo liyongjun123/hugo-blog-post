@@ -10,7 +10,7 @@ url: "/2020/03/17/linux-cmd-abbreviation.html"
 
 | 缩写   | 全称                                      | 含义                                  |
 | ------ | ----------------------------------------- | ------------------------------------- |
-| cat    | concatenate                               | 连接文件并打印到标准输出设备上        |
+|        |                                           |                                       |
 | cd     | **change** directory                      | 改变目录                              |
 | chmod  | **change** mode                           |                                       |
 | chown  | **change** owner                          |                                       |
@@ -31,6 +31,8 @@ url: "/2020/03/17/linux-cmd-abbreviation.html"
 | ssh    | **secure** shell                          | 用于安全登录远程系统的协议            |
 | telnet | telecommunication network                 | 远程登录的协议                        |
 |        |                                           |                                       |
+| cal    | calendar                                  | 显示日历                              |
+| cat    | concatenate                               | 连接文件并打印到标准输出设备上        |
 | diff   | difference                                | 逐行对比文件                          |
 | mv     | move                                      | 移动                                  |
 | rm     | remove                                    | 删除                                  |
@@ -59,6 +61,7 @@ url: "/2020/03/17/linux-cmd-abbreviation.html"
 |        |                                           |                                       |
 |        |                                           |                                       |
 | ps     | process status                            | 进程状态                              |
+| sudo   | superuser do                              | 让普通用户执行root用户命令            |
 | su     | switch user                               | 切换用户                              |
 | uname  | Unix name                                 | 显示系统信息                          |
 |        |                                           |                                       |
