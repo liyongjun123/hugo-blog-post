@@ -3,7 +3,7 @@ title: "ssh免密登录"
 date: 2020-03-09T16:49:59+08:00
 draft: false
 categories: ["Linux"]
-tags: ["linux-cmd"]
+tags: ["cmd"]
 url: "/2020/03/09/ssh-free-login.html"
 ---
 
