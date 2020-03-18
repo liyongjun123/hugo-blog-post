@@ -12,9 +12,9 @@ url: "/2020/03/17/linux-cmd-abbreviation.html"
 | -------- | ------------------------------------------------ | ----------------------------------------- |
 |          |                                                  |                                           |
 | cd       | **change** directory                             | 改变目录                                  |
-| chmod    | **change** mode                                  |                                           |
-| chown    | **change** owner                                 |                                           |
-| chgrp    | **change** group                                 |                                           |
+| chmod    | **change** mode                                  | 更改文件权限                              |
+| chown    | **change** owner                                 | 更改文件所属用户和用户组                  |
+| chgrp    | **change** group                                 | 更改文件所属用户组                        |
 | chattr   | **change** attribute                             | 改变文件扩展属性                          |
 | lsattr   | list attribute                                   | 显示文件扩展属性                          |
 |          |                                                  |                                           |
@@ -31,6 +31,12 @@ url: "/2020/03/17/linux-cmd-abbreviation.html"
 | ssh      | **secure** shell                                 | 用于安全登录远程系统的协议                |
 | telnet   | telecommunication network                        | 远程登录的协议                            |
 |          |                                                  |                                           |
+| sudo     | superuser do                                     | 让普通用户执行root用户命令                |
+| su       | switch user                                      | 切换用户                                  |
+| uname    | Unix name                                        | 显示系统信息                              |
+| tty      | TeleTypeWriter                                   | 电传打字机，打印此                        |
+| wall     | write all                                        | 向所有用户发送一条消息                    |
+|          |                                                  |                                           |
 | ifconfig | network interfaces configuring                   | 网络接口配置工具                          |
 | nmcli    | command-line tool for controlling NetworkManager | 用于控制网络管理的命令行工具              |
 |          |                                                  |                                           |
@@ -40,16 +46,18 @@ url: "/2020/03/17/linux-cmd-abbreviation.html"
 | diff     | difference                                       | 逐行对比文件                              |
 | mv       | move                                             | 移动                                      |
 | rm       | remove                                           | 删除                                      |
+| ls       | list                                             | 列出目录内容                              |
 | ln       | link                                             | 建立链接文件                              |
 | man      | manual                                           | 手册，指南                                |
+| seq      | sequence                                         | 数列                                      |
 | stat     | status                                           | 显示文件和文件系统状态属性                |
 |          |                                                  |                                           |
-| ls       | list                                             | 列出目录内容                              |
-| ldd      | list dynamic dependencies                        |                                           |
+| ldd      | list dynamic dependencies                        | 打印共享库依赖                            |
 |          |                                                  |                                           |
 | grep     | Global Regular Expression Print                  | 查找文件里符合条件的字符串                |
 | awk      | Aho Weiberger and Kernighan                      | 三个人名命名的文本处理工具                |
-|          |                                                  |                                           |
+| sed      | stream editor                                    | 流编辑器，利用脚本处理文件                |
+| ed       | editor                                           | 原始的Unix文本编辑器                      |
 |          |                                                  |                                           |
 | rpm      | Red hat package manager                          | 红帽子打包管理器                          |
 | ipkg     |                                                  | OpenWrt的软件安装管理工具                 |
@@ -59,27 +67,23 @@ url: "/2020/03/17/linux-cmd-abbreviation.html"
 |          |                                                  |                                           |
 | curl     | CommandLine URL                                  | 利用URL语法在命令行下工作的文件传输工具   |
 | wget     | World Wide Web get                               | 从网络上自动下载文件的自由工具            |
-| gcc      | GNU Compiler Collection                          | GNU编译器(合集)套件                       |
+| nc       | netcat                                           | 任意TCP和UDP连接和监听                    |
+| nmap     | network mapper                                   | 网络映射器，网络探测工具和端口扫描器      |
 |          |                                                  |                                           |
+| gcc      | GNU Compiler Collection                          | GNU编译器(合集)套件                       |
+| gdb      | GNU Debugger                                     | GNU调试器                                 |
 | dmesg    | diagnostic message                               | 诊断信息                                  |
 | wc       | word count                                       | 统计单词数、字节数或者行数                |
-|          |                                                  |                                           |
-| cal      | calendar                                         | 显示日历                                  |
-|          |                                                  |                                           |
-|          |                                                  |                                           |
 | ps       | process status                                   | 进程状态                                  |
-| sudo     | superuser do                                     | 让普通用户执行root用户命令                |
-| su       | switch user                                      | 切换用户                                  |
-| uname    | Unix name                                        | 显示系统信息                              |
 |          |                                                  |                                           |
-|          |                                                  |                                           |
-| insmod   | install module                                   | 载入模块                                  |
-| lsmod    | list module                                      | 列出模块                                  |
-| rmmod    | remove module                                    | 删除模块                                  |
-|          |                                                  |                                           |
+| insmod   | install **module**                               | 载入模块                                  |
+| lsmod    | list **module**                                  | 列出模块                                  |
+| rmmod    | remove **module**                                | 删除模块                                  |
 |          |                                                  |                                           |
 | tar      | tape archive                                     | 归档                                      |
-|          |                                                  |                                           |
+| svn      | Subversion                                       | Subversion命令行客户端工具                |
+| sync     | synchronize                                      | 将缓存写入磁盘                            |
+| rsync    | remote sync                                      | 一个快速的稳定的远程文件拷贝工具          |
 |          |                                                  |                                           |
 | .a       | archive，static library                          | 扩展名 a，静态库                          |
 | .so      | shared object，dynamically linked librery        | 扩展名so，共享库，动态库                  |
@@ -92,7 +96,4 @@ url: "/2020/03/17/linux-cmd-abbreviation.html"
 | /sbin    | superuser binary                                 |                                           |
 | /tmp     | temporary                                        |                                           |
 | /usr     | Unix Shared Resources                            |                                           |
-| /var     |                                                  |                                           |
-|          |                                                  |                                           |
-|          |                                                  |                                           |
 
