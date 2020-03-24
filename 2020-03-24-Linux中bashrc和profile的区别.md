@@ -7,7 +7,7 @@ tags: ["经验"]
 url: "/2020/03/24/bashrc-profile.html"
 ---
 
-/etc/profile,/etc/bashrc 是系统全局环境变量设定  
+/etc/profile，/etc/bashrc 是系统全局环境变量设定  
 ~/.profile，~/.bashrc 是用户家目录下的私有环境变量设定  
 当登入系统时候获得一个shell进程时，其读取环境设定档有三步  
 
