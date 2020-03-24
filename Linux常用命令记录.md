@@ -115,6 +115,9 @@ ln [参数][源文件或目录][目标文件或目录]
 ## mount
 `sudo mount -t vboxsf RT-Thread/ RT-Thread/`
 
+## mv
+` mv !(child1) child1 ` 把当前目录下的所有文件移动到`child1`目录下
+
 ## mysql
 `mysql -h 172.17.0.5 -u root -p123456` 连接mysql
 
