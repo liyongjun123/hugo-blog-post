@@ -9,7 +9,7 @@ url: "/2020/03/25/livereload.html"
 
 ## # 前言
 
-最近一个月一直在用hugo写博客，体验很不错，响应快，bug少。昨天把bugo的源码也下下来了，准备研究下，以后估计就重度使用它了。
+最近一个月一直在用 hugo 写博客，体验很不错，响应快，bug 少。昨天把bugo的源码也下下来了，准备研究下，以后估计就重度使用它了。
 
 ## # 发现
 
@@ -21,13 +21,13 @@ url: "/2020/03/25/livereload.html"
 
 ## # 讨论
 
-今天上午把我这个疑问跟我同事分享了一下，结果被否定了。同事的意思是，浏览器也可以通过不断地向服务器发送请求来判断页面是否需要更新，或者使用websocket。总之我的所有页面都保持连接的说法是不太可能的，不然就不需要 http 长连接或者 websocket 这些技术了。我想也是。
+今天上午把我这个疑问跟我同事分享了一下，结果被否定了。同事的意思是，浏览器也可以通过不断地向服务器发送请求来判断页面是否需要更新，或者使用 websocket 。总之我的所有页面都保持连接的说法是不太可能的，不然就不需要 http 长连接或者 websocket 这些技术了。我想也是。
 
 ## # 探寻
 
 带着疑惑下班回到家，想看一下这到底是怎么回事。
 
-查看网页源码，看看有哪些js(心中确实比较怀疑是不是js脚本定时请求)。jquery.min.js，通用库，跳过；拉到最后，也没看到几个js。全局搜索下js。慢着，这是什么`<script src="/livereload.js?port=8088&mindelay=10&v=2" data-no-instant defer></script>`，**livereload.js**，看着就不是什么好东西，有点自动加载的意思。点开看看内容
+查看网页源码，看看有哪些 js (心中确实比较怀疑是不是 js 脚本定时请求)。jquery.min.js，通用库，跳过；拉到最后，也没看到几个js。全局搜索下js。慢着，这是什么`<script src="/livereload.js?port=8088&mindelay=10&v=2" data-no-instant defer></script>`，**livereload.js**，看着就不是什么好东西，有点自动加载的意思。点开看看内容
 
 ```js
 !function(){return function e(t,o,n){function r(s,c){if(!o[s]){if(!t[s]){var a="function"==typeof require&&require;if(!c&&a)return a(s,!0);if(i)return i(s,!0);var l=new Error("Cannot find module '"+s+"'");throw l.code="MODULE_NOT_FOUND",l}var h=o[s]={exports:{}};t[s][0].call(h.exports,function(e){return r(t[s][1][e]||e)},h,h.exports,e,t,o,n)}return o[s].exports}for(var i="function"==typeof require&&require,s=0;s<n.length;s++)r(n[s]);return r}}()({1:[function(e,t,o){t.exports=function(e){if("function"!=typeof e)throw TypeError(e+" is not a function!");return e}},{}],2:[function(e,t,o){var n=e("./_wks")("unscopables"),r=Array.prototype;null==r[n]&&e("./_hide")(r,n,{}),t.exports=function(e){r[n][e]=!0}},{"./_hide":17,"./_wks":45}],3:
@@ -49,11 +49,11 @@ url: "/2020/03/25/livereload.html"
 什么是 livereload？
 
 - livereload 是基于 html5 的 websocket 实现的；
-- livereload 在访问的web页面中插入一段 socket 套接字代码(js编写)，这段代码与 livereload 服务器端 socket 建立链接；并等待与执行类似 “reload css/styles.css” 的指令。
+- livereload 在访问的 web 页面中插入一段 socket 套接字代码(js编写)，这段代码与 livereload 服务器端 socket 建立链接；并等待与执行类似 “reload css/styles.css” 的指令。
 
 如何插入socket套接字代码？
 
-下面列出了三种方式，在web页面中插入必要的socket套接字代码：
+下面列出了三种方式，在 web 页面中插入必要的 socket 套接字代码：
 
 - 通过浏览器插件
 
