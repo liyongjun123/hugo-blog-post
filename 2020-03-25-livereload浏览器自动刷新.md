@@ -47,30 +47,21 @@ url: "/2020/03/25/livereload.html"
 ## # 深入了解
 
 什么是 livereload？
-
 - livereload 是基于 html5 的 websocket 实现的；
 - livereload 在访问的 web 页面中插入一段 socket 套接字代码(js编写)，这段代码与 livereload 服务器端 socket 建立链接；并等待与执行类似 “reload css/styles.css” 的指令。
 
-如何插入socket套接字代码？
-
-下面列出了三种方式，在 web 页面中插入必要的 socket 套接字代码：
+如何插入socket套接字代码？下面列出了三种方式，在 web 页面中插入必要的 socket 套接字代码：
 
 - 通过浏览器插件
-
 - 通过服务器中间件（服务器中间件向返回的页面中插入一段js脚本）
-
 - 手动在页面中 `<script src=""></script>` 引入
 
 什么是 livereload.js?
-
 - 一个js库
-
 - 实现了 livereload 协议的客户端
-
 - 它从 livereload 服务器获取更改通知并刷新页面
 
 功能总结
-
 - 实时 CSS 重新加载
 - 整页重新加载
 - 使用 websocket 协议
