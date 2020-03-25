@@ -49,7 +49,7 @@ url: "/2020/03/25/livereload.html"
 什么是 livereload？
 
 - livereload 是基于 html5 的 websocket 实现的；
-- livereload 在访问的web页面中插入一段socket套接字代码(js编写)，这段代码与 livereload 服务器端 socket 建立链接；并等待与执行类似 “reload css/styles.css” 的指令。
+- livereload 在访问的web页面中插入一段 socket 套接字代码(js编写)，这段代码与 livereload 服务器端 socket 建立链接；并等待与执行类似 “reload css/styles.css” 的指令。
 
 如何插入socket套接字代码？
 
@@ -77,6 +77,27 @@ url: "/2020/03/25/livereload.html"
 - CSS `@import` 支持
 - 实时图像重新加载
 - 实时 LESS.js 重新加载
+
+## # 铁证如山
+
+服务器查看 web 服务器当前连接情况，确实看到有一个客户端一直和服务器保持着连接
+
+```shell
+[centli@VM_0_14_centos post]$ netstat -natp | grep 8088
+tcp6       0      0 :::8088                 :::*                    LISTEN      -         
+tcp6       0      0 172.16.0.14:8088        180.114.236.97:55897    ESTABLISHED -
+```
+
+PC 客户端查看，也确实存在一条与服务器保持着的连接
+
+```powershell
+C:\Users\Li_Yo>netstat -ano | findstr 8088
+  TCP    192.168.2.195:55897    211.159.189.50:8088    ESTABLISHED     3820
+```
+
+而且，这条连接自从我打开浏览器访问博客后就从来没断开过，至少已经保持连接两小时了。
+
+由此可以证明浏览器和客户端之间确实保持着 TCP 连接(websocket 技术)。
 
 
 
