@@ -11,7 +11,7 @@ url: "/2020/04/10/ifconfig-a.html"
 
 昨天晚上编译安装了一个无线网卡驱动，但是插入无线网卡后执行 ifconfig 并没有发现产生新的网络接口
 
-```
+```bash
 ubuntu@ubuntu:~$ ifconfig
 eth0: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
         inet 192.168.2.116  netmask 255.255.255.0  broadcast 192.168.2.255
@@ -42,7 +42,7 @@ ubuntu@ubuntu:~$
 
 今天突然想起是不是要加个 -a ，网卡是不是处于 down 的状态导致我昨天没看到
 
-```
+```bash
 ubuntu@ubuntu:~$ ifconfig -a
 eth0: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
         inet 192.168.2.116  netmask 255.255.255.0  broadcast 192.168.2.255
