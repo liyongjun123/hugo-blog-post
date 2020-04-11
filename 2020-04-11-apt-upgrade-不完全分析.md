@@ -53,11 +53,11 @@ Calculating upgrade... Done
 
 接着看看是什么样的包，结果没找到，到处都是 Packages.gz ，那就把它下下来，看看是什么
 
-![armhf架构](D:\Project Files\Markdown\hugo-blog-post\images\armhf架构.png)
+![armhf架构](/images/armhf架构.png)
 
 发现，这里面就标注着，哪个架构下的哪个包在什么位置，跟着这个路径进去瞅瞅
 
-![不同架构1](D:\Project Files\Markdown\hugo-blog-post\images\不同架构1.png)
+![不同架构1](/images/不同架构1.png)
 
 进来后就立刻明白了，确实是不同的安装包，不同架构拉自己架构的安装包回去安装就行了。
 
