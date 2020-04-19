@@ -93,7 +93,7 @@ a.txt
 
 ## # 运行
 
-```
+```bash
 D:\Project Files\python\scripts>add-space-between-latin-and-cjk.py a.txt
 prefix:学
 next_char:习
