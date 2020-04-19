@@ -9,7 +9,7 @@ url: "/2020/04/19/python-reduce.html"
 
 ## # 需求
 
-在中文字符和英文字符之间插入空格
+在**中文**和**英文**之间插入空格
 
 如
 
@@ -149,7 +149,7 @@ prefix:学
 next_char:习
 ```
 
-由于 add_space_at_boundry  判断这两个字符都是汉字，中间不需要加空格，所以返回结果『学习』，接着 functools.reduce 函数会把上一次返回的结果『学习』和 instr 中的下一个元素，也就是第三个元素传递给 add_space_at_boundry 进行运算，即
+由于 add_space_at_boundry  判断这两个字符都是汉字，中间不需要加空格，所以返回结果『学习』，接着 functools.reduce 函数会把上一次返回的结果『学习』和 instr 中的下一个元素，也就是第三个元素『P』传递给 add_space_at_boundry 进行运算，即
 
 ```bash
 prefix:学习
