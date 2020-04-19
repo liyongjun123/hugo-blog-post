@@ -132,7 +132,7 @@ D:\Project Files\python\scripts>
 
 a.txt
 
-```
+```bash
 学习 Python 语言
 ```
 
@@ -144,7 +144,7 @@ instr 变量的值就是 a.txt 的文本内容『学习Python语言』，
 
 functools.reduce 函数首先从 instr 取出第一个和第二个元素，传递给 add_space_at_boundry 进行运算，即
 
-```
+```bash
 prefix:学
 next_char:习
 ```
