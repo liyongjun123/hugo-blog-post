@@ -250,3 +250,17 @@ slave设备：最大发射功率小于200mW的不要求具备雷达脉冲监测�
 [wifi驱动的理解（1）——驱动架构](https://www.cnblogs.com/tureno/articles/6288308.html)  
 [wifi驱动的理解（2）——usb接口在wifi模块中的角色](https://www.cnblogs.com/tureno/articles/6288314.html)  
 [wifi驱动的理解（3）——usb接口在wifi模块中的角色](https://www.cnblogs.com/tureno/articles/6288318.html)   
+
+
+
+## 04/22
+
+### ## elf
+
+是一种文件格式
+
+在计算机科学中，是一种用于**二进制文件**、**可执行文件**、**目标文件**、**共享库**和**核心转储格式文件**。
+
+### ##  计算机启动流程
+[计算机是如何启动的？](http://www.ruanyifeng.com/blog/2013/02/booting.html)  
+《计算机奥秘》第六版
