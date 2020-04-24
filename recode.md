@@ -270,3 +270,34 @@ slave设备：最大发射功率小于200mW的不要求具备雷达脉冲监测�
 ## 04/23
 
 成长路线：《Linux 设备驱动 - LDD》 --> 《深入理解Linux内核》 --> 外围(Wi-Fi、PCIE、ethernet)
+
+
+
+## 04/24
+
+### ## ethtool
+
+用于查询及设置网卡参数
+
+
+
+### ## HW-NAT
+
+硬件 NAT 加速
+
+
+
+### ## offload
+
+[网络虚拟化中的 offload 技术：LSO/LRO、GSO/GRO、TSO/UFO、VXLAN](https://www.cnblogs.com/FarmPick/p/6428564.html)   
+[网络数据包分析 网卡Offload](http://blog.nsfocus.net/network-packets-analysis-nic-offload/)  
+[合理设置MTU，提升下载速度](http://yangtai.xunlei.com/?p=1326)  
+
+
+
+### ## gpon
+
+### ## epon
+
+### ## HWNAT
+
