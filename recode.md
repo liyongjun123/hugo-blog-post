@@ -10,7 +10,7 @@ url: "recode"
 
 ## 04/14
 
-rtl8188eu无线网卡驱动移植 https://blog.csdn.net/playboysssss/article/details/52493751
+### ## rtl8188eu无线网卡驱动移植 https://blog.csdn.net/playboysssss/article/details/52493751
 
 ```bash
 cat /proc/cpuinfo
@@ -21,7 +21,7 @@ model name      : ARMv7 Processor rev 4 (v7l) 这个信息是CPU自带的还是�
 
 树莓派3b+ 编译安装rtl8812 usb网卡驱动（2018.9.4） https://blog.csdn.net/jn3393/article/details/82379946
 
-树莓派使用 RTL8188CUS芯片 开AP模式  https://blog.csdn.net/lfangjw/article/details/52810919
+### ## 树莓派使用 RTL8188CUS芯片 开AP模式  https://blog.csdn.net/lfangjw/article/details/52810919
 
 准备树莓派下的模块开发环境	https://www.cnblogs.com/brep/p/4201867.html
 
@@ -49,7 +49,7 @@ gpon
 
 ## 04/15
 
-神域
+### ## 神域
 
 理学神域
 
@@ -109,15 +109,27 @@ gpon
 
 数学界：
 
+数论魔导华罗庚
+
+积分尊者莱布尼茨
+
+如来神展傅里叶
+
+勾股圣手毕达哥拉斯
+
+百算神童高斯
+
 ……
 
 
 
-复数的物理意义是什么？知乎
+### ## [科学的尽头是神学，这句话对吗？](https://www.zhihu.com/question/55929049/answer/485828603)
+
+### ## 复数的物理意义是什么？知乎
 
 
 
-[如何计算信号的带宽](https://zhidao.baidu.com/question/244399154.html)
+### ## [如何计算信号的带宽](https://zhidao.baidu.com/question/244399154.html)
 
 
 
@@ -197,8 +209,6 @@ Linux 内核做了什么
 
 ### ## 有线无线互转
 
-### 1.
-
 [802.11与802.3数据帧转换（即有线和无线数据帧转换）](https://blog.csdn.net/rs_network/article/details/49644365)
 
 《802.11无线网络权威指南》3.6 帧的处理与桥接
@@ -210,8 +220,6 @@ Linux 内核做了什么
 大多数基站的设计上就是扮演 802.11 与以太网之间的桥梁，因此，了解帧在两种介质之间的传递方式就相当重要。
 
 ![在无线与有线之间转换帧](/images/在无线与有线之间转换帧.png)
-
-### 2.
 
 [IEEE802.11数据帧在Linux上的抓取   80211格式转8023帧格式](https://www.cnblogs.com/newjiang/p/7732972.html) ：
 
@@ -269,7 +277,9 @@ slave设备：最大发射功率小于200mW的不要求具备雷达脉冲监测�
 
 ## 04/23
 
-成长路线：《Linux 设备驱动 - LDD》 --> 《深入理解Linux内核》 --> 外围(Wi-Fi、PCIE、ethernet)
+### ## 成长路线：
+
+《Linux 设备驱动 - LDD》 --> 《深入理解Linux内核》 --> 外围(Wi-Fi、PCIE、ethernet)
 
 
 
@@ -301,3 +311,24 @@ slave设备：最大发射功率小于200mW的不要求具备雷达脉冲监测�
 
 ### ## HWNAT
 
+
+
+## 05/03
+
+### ## [计算机网络为什么需要抽象出五层模型？](https://blog.csdn.net/qq_38646470/article/details/104913718)  
+### ## [Wi-Fi协议（802.11 ）常见专业术语汇总](https://www.toutiao.com/i6698696416795034125/)  
+### ## [MII与RMII接口的区别](https://blog.csdn.net/fun_tion/article/details/70270632)
+
+## 05/04
+
+### ## PHY MAC
+
+PHY 整合了大量模拟硬件，而 MAC 是典型的全数字器件。——《STM32神州Ⅳ号……》
+
+关于PHY和RJ45的深入了解 ——《STM32神州Ⅳ号……》
+
+RMII 是简化的 MII 接口，在数据的收发上它比 MII 接口少了一倍的信号线，所以它一般要求是 50 兆的总线时钟。
+
+[stm32 总线矩阵介绍](https://blog.csdn.net/WZJwzj123456/article/details/85028570)
+
+[stm32--以太网方案](https://blog.csdn.net/lzs940320/article/details/101625133)
