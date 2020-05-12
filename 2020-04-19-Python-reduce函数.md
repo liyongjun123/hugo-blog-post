@@ -1,6 +1,6 @@
 ---
 title: "Python reduce 函数"
-date: 2020-04-19T12:16:17+58:00
+date: 2020-04-19T12:16:17+08:00
 draft: false
 categories: ["Python"]
 tags: ["经验"]
