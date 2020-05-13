@@ -334,3 +334,10 @@ RMII 是简化的 MII 接口，在数据的收发上它比 MII 接口少了一�
 [stm32 总线矩阵介绍](https://blog.csdn.net/WZJwzj123456/article/details/85028570)
 
 [stm32--以太网方案](https://blog.csdn.net/lzs940320/article/details/101625133)
+
+## 05/12
+
+《Linux内核修炼之道》 之 高效学习Linux驱动开发[http://www.linuxidc.com/Linux/2011-05/36059.htm](https://www.linuxidc.com/Linux/2011-05/36059.htm)
+
+《Linux内核修炼之道》 之 高效学习Linux内核[http://www.linuxidc.com/Linux/2011-05/36059.htm](https://www.linuxidc.com/Linux/2011-05/36059.htm)
+
