@@ -341,3 +341,9 @@ RMII 是简化的 MII 接口，在数据的收发上它比 MII 接口少了一�
 
 《Linux内核修炼之道》 之 高效学习Linux内核[http://www.linuxidc.com/Linux/2011-05/36059.htm](https://www.linuxidc.com/Linux/2011-05/36059.htm)
 
+## 0518
+
+两台pc直连，为什么要配置同一网段的ip才可以ping通
+
+<https://wenwen.sogou.com/z/q301828707.htm>
+
