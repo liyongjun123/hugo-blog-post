@@ -341,9 +341,26 @@ RMII 是简化的 MII 接口，在数据的收发上它比 MII 接口少了一�
 
 《Linux内核修炼之道》 之 高效学习Linux内核[http://www.linuxidc.com/Linux/2011-05/36059.htm](https://www.linuxidc.com/Linux/2011-05/36059.htm)
 
-## 0518
+## 05/18
 
 两台pc直连，为什么要配置同一网段的ip才可以ping通
 
 <https://wenwen.sogou.com/z/q301828707.htm>
 
+## 05/25
+
+[WiFi Auto DFS & TPC无线自动换频与功率调整技术应用解说](https://blog.csdn.net/zxygww/article/details/50764965)
+
+[小包优先+web优先+游戏爆发+单IP限速+连接数限制 QOS脚本V2.0](https://blog.csdn.net/eydwyz/article/details/53161273)
+
+[QoS配置实例](https://blog.csdn.net/eydwyz/article/details/53320535)
+
+## 05/26
+
+[高通AP10.4开发者指南(二)](https://e-mailky.github.io/2018-10-14-qca-wlan2#主要数据结构)
+
+[WLAN QOS](https://blog.csdn.net/rheostat/article/details/16802891)
+
+## 05/28
+
+[小白都能看明白的VLAN原理解释（超详细）](https://blog.csdn.net/cwm_meng_home/article/details/49762807)
