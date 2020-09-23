@@ -46,14 +46,20 @@ usb blaster简要安装使用说明.pdf
 
 [quartus ii 生成.rbf的文件](https://www.pianshen.com/article/24721535460/)
 
+下载模式
+
 JTAG 
 
 1. .sof --> SRAM
 2. .jic --> EPROM，需要重新上电
 
-ASP 
+ASP (Active Serial Programming，主动串行)
 
 1. .pof -- EPROM
+
+PS (Passive Serial，被动串行)
+
+1. .pof
 
 MCS51（或 68302） + CPLD + FLASH 下载模式
 
@@ -81,6 +87,32 @@ EPROM方式：上电 FPGA 从 配置芯片中读取数据并烧写到内部 SRAM
 对于 .rbf 以及 .jam 文件地生成同样也是在 Quartus II 下设置即可生成：Assignments-->Device-->Device and Pin Options-->Programming Files 勾选 Raw Binary File(.rbf)、JEDEC STAPL Format File(.jam)。
 
 [Altera_FPGA烧写步骤及注意事项](http://www.docin.com/p-685789842.html)
+
+## # FPGA 配置启动
+
+FPGA 下载文件的意义是装载数据到内部配置 RAM 中，然后初始化 FPGA 整个电路连线以及设置片内 LUT 的初始值，一个系统无论大小都会初始化整片 FPGA，所以在同一款芯片中无论什么设计，下载文件大小都为固定值。和 MCU 不一样，MCU 会随着程序大小不一样产生二进制下载文件大小不一。两种下载含义也不一样，FPGA 为配置电路版图，MCU 为配置 Flash。
+
+Altera FPGA 包含多种下载格式文件，其中最常用的即为 SOF 文件和 POF 文件，但是无论什么格式的下载文件，最终下载到 FPGA 中的文件都为 .rbf 的原始二进制文件。
+
+下面详细介绍 ALTERA 各种配置文件文件总类：
+1.SRAM 配置文件（SOF）
+	SOF 文件为在线直接烧写 FPGA 配置区，采用可以采用 JTAG 和 PS 模式下载。Quartues 自动默认生成。
+2.Programmer 文件（POF）
+	POF 文件用于对 ALTERA 的配置芯片进行数据下载时候使用，Quartues 自动生成。
+3.原始二进制文件（RBF）
+	RBF 文件是芯片配置的原始二进制文件和一些控制码，任何格式的配置文件最终下载到 EPCS 中的都为 RBF 文件。
+4.原始编程数据文件（RPD）
+	RPD为包含 cyclone 系列芯片二进制位流数据和配置数据的二进制文件的合成文件，很少使用到，必须通过转换得到，不建议转成出RPD。
+5.HEX 文件
+	HEX 文件不能直接对 FPGA 进行配置，只能通过第三方编程器对 HEX 进行解析后把数据区烧写到 EPCS 中。
+6.JAM 文件
+	JAM 文件时用来存储器件编程信息的 ASCII 文本文件。
+7.JBC文件
+	JBC 文件时和 JAM 一样的二进制文件，未使用过。
+
+[FPGA配置启动详解系列（一）——配置文件详解](https://www.cnblogs.com/linjie-swust/archive/2012/04/24/2468166.html)
+
+[FPGA配置启动详解系列（二）——PS重配置](https://www.cnblogs.com/linjie-swust/archive/2012/04/26/2470286.html) 解释了 FPGA 为什么叫 **现场可编程门阵列**
 
 ## # VHDL 教程
 
