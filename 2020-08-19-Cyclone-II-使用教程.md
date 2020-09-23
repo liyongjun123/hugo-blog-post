@@ -44,6 +44,8 @@ usb blaster简要安装使用说明.pdf
 
 [quartus中生成jic文件](https://www.cnblogs.com/lemonblog/p/5363423.html)
 
+[quartus ii 生成.rbf的文件](https://www.pianshen.com/article/24721535460/)
+
 JTAG 
 
 1. .sof --> SRAM
@@ -52,6 +54,14 @@ JTAG
 ASP 
 
 1. .pof -- EPROM
+
+MCS51（或 68302） + CPLD + FLASH 下载模式
+
+1. .rbf
+
+860（或 850） + FLASH 下载模式
+
+1. .jam
 
 
 
@@ -65,6 +75,12 @@ EPROM方式：上电 FPGA 从 配置芯片中读取数据并烧写到内部 SRAM
 4. 将用户设计烧写到 EPCS FLASH
 
 
+
+.sof 文件及 .pof 文件使用 Quartus II 默认的选项，综合布局布线后就会得到，可以很明显地在工程目录下找到。
+
+对于 .rbf 以及 .jam 文件地生成同样也是在 Quartus II 下设置即可生成：Assignments-->Device-->Device and Pin Options-->Programming Files 勾选 Raw Binary File(.rbf)、JEDEC STAPL Format File(.jam)。
+
+[Altera_FPGA烧写步骤及注意事项](http://www.docin.com/p-685789842.html)
 
 ## # VHDL 教程
 
