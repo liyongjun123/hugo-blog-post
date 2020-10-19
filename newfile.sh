@@ -1,7 +1,7 @@
 #!/bin/bash
 
 open_file_func() {
-	typora ${file_name}
+	typora ${file_name} &
 }
 
 title_func() {
@@ -23,7 +23,7 @@ title_func() {
 }
 
 categories_func() {
-	categories_array=(C Go JS Linux Python STM32 工具 技术 杂谈 生活 硬件 神学 经验 网络 计算机)
+	categories_array=(C Go JS Linux Python HTML STM32 工具 技术 杂谈 生活 硬件 神学 经验 网络 计算机)
 	
 	echo ""
 	echo "[分类]"
@@ -47,7 +47,7 @@ categories_func() {
 }
 
 tags_func() {
-	tags_array=(ASCII码表 cmd driver hugo Kernel MDIO ubuntu Wi-Fi 优先级 传参 公众号 协议 大小端 字节序 存储 开发 总线 总结 技巧 指针 数学 无线 物理 类型转换 经验 芯片 补码)
+	tags_array=(ASCII码表 cmd driver hugo Kernel MDIO ubuntu Wi-Fi 优先级 传参 公众号 协议 大小端 字节序 存储 开发 总线 总结 技巧 指针 数学 无线 物理 类型转换 经验 学习 芯片 补码)
 	echo ""
 	echo "[标签]"
 	echo "----------------------"
