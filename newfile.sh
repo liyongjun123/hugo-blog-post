@@ -39,7 +39,7 @@ categories_func() {
 	echo -e "输入\033[31m序号\033[0m or 输入\033[31m新分类:\033[0m"
 	read categories_input
 
-	if [ "${categories_input}" -gt 0 ] 2>/dev/null ;then 
+	if [ "${categories_input}" -ge 0 ] 2>/dev/null ;then 
 		categories=${categories_array[${categories_input}]}
 	else 
 		categories=${categories_input}
@@ -62,7 +62,7 @@ tags_func() {
 	echo -e "输入\033[31m序号\033[0m or 输入\033[31m新标签:\033[0m"
 	read tags_input
 
-	if [ "${tags_input}" -gt 0 ] 2>/dev/null ;then 
+	if [ "${tags_input}" -ge 0 ] 2>/dev/null ;then 
 		tags=${tags_array[${tags_input}]}
 	else 
 		tags=${tags_input}

@@ -74,6 +74,23 @@ liyongjun@Box20:~/hugoblog/content/post$
 
 ```
 
+## 配置
+
+```bash
+root@liyongjun-desktop:/home/liyongjun# ps -ef | grep udhcp
+root      2156     1  0 10月20 ?      00:00:00 udhcpd /tmp/udhcpd.conf
+root@liyongjun-desktop:/home/liyongjun# cat /tmp/udhcpd.conf
+start 192.168.99.30
+end 192.168.99.100
+interface br0
+opt router 192.168.99.1
+option dns 4.2.2.2
+option domain local
+option lease 86400
+static_lease 00:03:7f:0b:63:99 192.168.100.99
+static_lease 1C:87:2C:B6:3A:98 192.168.100.98
+```
+
 
 
 ## 参考
