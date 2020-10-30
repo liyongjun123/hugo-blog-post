@@ -1,6 +1,6 @@
 ---
 title: "TODO"
-date: 2020-10-28T15:26:23+08:00
+date: 2020-10-30T11:39:46+08:00
 draft: false
 categories: ["技术"]
 tags: ["经验"]
@@ -14,6 +14,12 @@ url: "todo"
 - [ ] 阅读 hugo 和 maupassant 源码，能够灵活更改博客页面和功能
 - [ ] 每天消化两个《阅读列表》
 - [ ] 读几本书
+
+## NOW
+
+- [ ] 《Linux UNIX系统编程手册.pdf》
+
+- [ ] tlpi-book 源码
 
 ## 05/09
 
