@@ -23,7 +23,7 @@ title_func() {
 }
 
 categories_func() {
-	categories_array=(C Go JS Linux Python HTML STM32 工具 技术 杂谈 生活 硬件 神学 经验 网络 计算机)
+	categories_array=(C Go JS Linux Python HTML JS STM32 工具 技术 无线 杂谈 生活 硬件 神学 经验 网络 计算机)
 	
 	echo ""
 	echo "[分类]"
