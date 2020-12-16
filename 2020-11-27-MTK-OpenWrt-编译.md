@@ -26,7 +26,9 @@ Q: mountlist.c:35:10: error: #include expects "FILENAME" or <FILENAME>
 
 A: delete #include
 
+Q: makefile.build的分析
 
+A: https://blog.csdn.net/lgjjeff/article/details/90511225
 
 环境：Ubuntu 20.04
 
