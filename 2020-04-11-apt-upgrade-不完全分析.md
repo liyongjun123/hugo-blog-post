@@ -2,7 +2,7 @@
 title: "apt upgrade 不完全分析"
 date: 2020-04-11T17:06:51+08:00
 draft: false
-categories: ["技术","Linux"]
+categories: ["技术","Linux","Shell"]
 tags: ["经验"]
 url: "/2020/04/10/apt-upgrade-incomplete-analysis"
 ---

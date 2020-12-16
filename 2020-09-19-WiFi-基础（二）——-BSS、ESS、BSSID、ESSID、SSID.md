@@ -2,7 +2,7 @@
 title: "WiFi 基础（二）—— BSS、ESS、BSSID、ESSID、SSID"
 date: 2020-09-19T11:12:51+08:00
 draft: false
-categories: ["网络"]
+categories: ["无线"]
 tags: ["Wi-Fi"]
 toc: false
 url: "/2020/09/19/wifi-basic-bss-ess-bssid-essid-ssid.html"

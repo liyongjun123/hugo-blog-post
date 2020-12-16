@@ -2,7 +2,7 @@
 title: "ifconfig -a"
 date: 2020-04-11T11:07:11+08:00
 draft: false
-categories: ["技术"]
+categories: ["技术","Shell"]
 tags: ["经验"]
 url: "/2020/04/10/ifconfig-a.html"
 ---

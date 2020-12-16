@@ -2,7 +2,7 @@
 title: "Makefile include"
 date: 2020-10-22T23:27:33+08:00
 draft: false
-categories: ["Linux"]
+categories: ["Makefile"]
 tags: ["学习"]
 toc: false
 url: /2020/10/22/makefile-include.html

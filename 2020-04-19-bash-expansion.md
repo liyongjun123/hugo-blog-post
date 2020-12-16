@@ -2,7 +2,7 @@
 title: "Bash：你以为我在第一层，实际上我是第八层！"
 date: 2020-04-19T20:23:59+08:00
 draft: false
-categories: ["Linux"]
+categories: ["Shell"]
 tags: ["cmd"]
 url: "/2020/04/19/bash-expansion.html"
 ---
