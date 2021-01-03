@@ -1,12 +1,10 @@
----
 title: "TODO"
-date: 2020-10-30T11:39:46+08:00
+date: 2020-12-26T00:22:39+08:00
 draft: false
 categories: ["技术"]
 tags: ["经验"]
 toc: true
 url: "todo"
----
 
 ## 长期
 
@@ -20,6 +18,12 @@ url: "todo"
 - [ ] 《Linux UNIX系统编程手册.pdf》
 
 - [ ] tlpi-book 源码
+
+## 12/26
+
+- [ ] [BogoMIPS](https://www.yuque.com/books/share/742ca8f6-34f3-41ef-b239-be00aaf0df31)
+
+- [ ] [《编程之道》中英双语版](https://www.yuque.com/books/share/742ca8f6-34f3-41ef-b239-be00aaf0df31)
 
 ## 05/09
 
